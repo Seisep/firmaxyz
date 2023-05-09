@@ -8,3 +8,6 @@ def hello(request):
         'name' : name
     }
     return render(request, 'app1/hello.html', context)
+
+def seite2(request):
+    return render(request, 'app1/hello2.html', context)
